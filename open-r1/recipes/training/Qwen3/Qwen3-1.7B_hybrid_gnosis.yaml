@@ -1,0 +1,51 @@
+# Model arguments
+model_name_or_path: Qwen/Qwen3-1.7B
+model_revision: main
+torch_dtype: bfloat16
+attn_implementation: flash_attention_2
+
+# Data training arguments
+dataset_name: 
+
+# dataset_config: solutions_decontaminated
+dataset_num_proc: 48
+
+completion_only_loss: True
+
+
+# SFT trainer config
+bf16: true
+do_eval: false
+eval_strategy: 'no'
+gradient_accumulation_steps: 9
+gradient_checkpointing: true
+gradient_checkpointing_kwargs:
+  use_reentrant: false
+hub_model_id: open-r1/gg
+hub_strategy: every_save
+learning_rate: 1.0e-04
+log_level: info
+logging_steps: 1
+logging_strategy: steps
+lr_scheduler_type: cosine_with_min_lr
+lr_scheduler_kwargs:
+  min_lr_rate: 0.1
+packing: false
+# max_grad_norm: 0.2
+max_length: 30000
+max_steps: -1
+num_train_epochs: 2
+output_dir: output/Qwen3_1.7B_Gnosis
+run_name: Qwen3_1.7B_Gnosis
+overwrite_output_dir: true
+per_device_eval_batch_size: 2
+per_device_train_batch_size: 2
+push_to_hub: false
+report_to:
+- wandb
+save_strategy: "steps"
+save_steps: 300
+save_total_limit: 2
+seed: 42
+use_liger_kernel: false
+warmup_ratio: 0.1
