@@ -1,4 +1,4 @@
-# Gnosis: Self-Awareness Mechanism for LLM Correctness Detection
+# Can LLMs Predict Their Own Failures? Self-Awareness via Internal Circuits
 <div align="center">
 
 <a href="https://hf.co/collections/AmirhoseinGH/gnosis-training-data">
