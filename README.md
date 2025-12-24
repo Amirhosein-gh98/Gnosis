@@ -1,4 +1,19 @@
 # Gnosis: Self-Awareness Mechanism for LLM Correctness Detection
+<div align="center">
+
+<a href="https://hf.co/collections/AmirhoseinGH/gnosis-training-data">
+  <img src="https://img.shields.io/badge/Hugging%20Face-Training%20Data-FFD21E?logo=huggingface&logoColor=000" height="28" />
+</a>
+&nbsp;&nbsp;
+<a href="https://hf.co/collections/AmirhoseinGH/gnosis-self-awareness">
+  <img src="https://img.shields.io/badge/Hugging%20Face-Models-FFD21E?logo=huggingface&logoColor=000" height="28" />
+</a>
+&nbsp;&nbsp;
+<a href="http://arxiv.org/abs/2512.20578">
+  <img src="https://img.shields.io/badge/arXiv-2512.20578-B31B1B?logo=arxiv&logoColor=white" height="28" />
+</a>
+
+</div>
 
 <div align="center"> <img src="assets/Gnosis_demo.gif" alt="Gnosis Demo" width="100%" />
 
