@@ -25,6 +25,25 @@ Overview of our Gnosis self-awareness mechanism and its performance.
 
 ---
 
+<div align="center">
+
+# 🚨 NEW RELEASE 🚨
+
+## [Multi-Head Latent Control](https://github.com/Amirhosein-gh98/Multi-Head-Latent-Control)
+
+### From predicting failures to actively controlling agents
+
+**Building on Gnosis, our new work turns latent self-awareness into real-time deployment decisions. Multi-Head Latent Control reads the internal states of frozen LLMs to decide when to answer, continue reasoning, ask for clarification, use tools, abstain, or route to a stronger model—achieving higher success while reducing plotted API cost by up to ~90% in our reported AndroidWorld settings.**
+
+<a href="https://github.com/Amirhosein-gh98/Multi-Head-Latent-Control">
+  <img src="https://img.shields.io/badge/Explore-Multi--Head%20Latent%20Control-FF4B4B?style=for-the-badge&logo=github&logoColor=white" height="34" />
+</a>
+
+</div>
+
+---
+
+
 ## 📁 Repository layout
 
 - **`transformers/`** — local Transformers fork with **Gnosis integrated into the model architecture** 
